@@ -9,6 +9,10 @@ header {
   padding: 154px 0 100px;
 }
 
+.bg-primary {
+	background-color: transparent;
+}
+
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
