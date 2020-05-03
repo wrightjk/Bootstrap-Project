@@ -38,7 +38,22 @@
 	text-align: justify;
 }
 
-/* note to self: figure out hover and visited styles */
+/* link styles */
+a {
+	color: #C78D91;
+}
+
+a:hover {
+	text-decoration: none;
+ 	color: #AA6484;
+}
+
+a:visited {
+	color: #C78D91;
+	font-weight: bold;
+}
+
+/* button link styles */
  .btn-link {
  	color: #C78D91;
  }
@@ -48,7 +63,12 @@
  	color: #AA6484;
  }
 
-/* grid? code for page content */
+ .btn-link:visited {
+ 	color: #C78D91;
+	font-weight: bold;
+ }
+
+/* flexbox code for page content */
  .container {
  	padding: 0px;
  	display: flex;
