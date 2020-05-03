@@ -4,6 +4,72 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+ /* Custom Styles */
+ h1, h2 {
+ 	font-family: Roboto, arial, sans-serif;
+ 	text-transform: uppercase;
+ 	color: white;
+ 	background-color: #AA6484;
+ 	margin: 10px;
+ 	padding: 20px;
+ }
+
+ h1 {
+ 	font-size: 3em;
+ 	text-align: center;
+ }
+
+ h2 {
+ 	font-size: 2em;
+ }
+
+ body {
+ 	font-family: open sans, arial, sans-serif;
+ }
+
+ nav {
+ 	text-transform: uppercase;
+ }
+
+#intro {
+	padding-top: 0px;
+	padding-right: 2in;
+	padding-left: 2in;
+	text-align: justify;
+}
+
+/* note to self: figure out hover and visited styles */
+ .btn-link {
+ 	color: #C78D91;
+ }
+
+ .btn-link:hover {
+ 	text-decoration: none;
+ 	color: #AA6484;
+ }
+
+/* grid? code for page content */
+ .container {
+ 	padding: 0px;
+ 	display: flex;
+ }
+
+ .pic-left {
+ 	align-self: flex-end;
+ }
+
+ .text {
+ 	padding: 10px;
+ }
+
+ .pic-right {
+ 	align-self: flex-end;
+ }
+
+ .pic-flip {
+ 	align-self: flex-start;
+ }
+
 /* KEEP THESE STYLES */
 header {
   padding: 154px 0 100px;
