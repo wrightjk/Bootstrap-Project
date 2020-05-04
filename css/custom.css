@@ -12,11 +12,11 @@
  	background-color: #AA6484;
  	margin: 10px;
  	padding: 20px;
+ 	text-align: center;
  }
 
  h1 {
  	font-size: 3em;
- 	text-align: center;
  }
 
  h2 {
@@ -27,8 +27,14 @@
  	font-family: open sans, arial, sans-serif;
  }
 
+/* nav bar code */
  nav {
  	text-transform: uppercase;
+ 	background-color: white;
+ }
+
+  {
+ 	color: #C78D91;
  }
 
 #intro {
